@@ -8,7 +8,7 @@ Develop enhanced specifications within the regular InChI standard for representi
 * [Hunter Moseley](@hunter-moseley) 
 * [Philippe Rocca-Serra](@proccaserra) 
 * [Reza Salek](@r7salek)
-* [Masanori Arita](@masanori-arita) 
+* [Masanori Arita](@m-arita) 
 * [Emma Schymanski](@schymane)
 
 # Problems Being Solved:
