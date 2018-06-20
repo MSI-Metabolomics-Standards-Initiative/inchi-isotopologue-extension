@@ -29,3 +29,10 @@ The isotopic layer is highlighted in red. However, there is no way to create a s
 - Review and refine developed specifications.
 - Present proposed specifications to the IUPAC InChI subcommittee and the InChI Trust.
 
+# Definitions:
+- **Isotopomer** - also known as isotopic isomers, these are isomers with the same number of each isotope of each element but differing in their positions within the chemical structure. Isotopomers can also be specific to stereochemistry, where they are known as isotopic stereoisomers.  By definition, isotopomers have the same mass, since they have the same isotopic composition.  However, the set of all isotopomers which span all possible isotopic compositions are often collectively referred to as isotopomers.  
+- **Partial Isotopomer** - part of an isotopomer where the isotopic content of specific atoms is known.  In nuclear magnetic resonance spectroscopy (NMR) and in rare circumstances in tandem mass spectrometry, individual spectral features may directly indicate that certain atoms of a particular molecule have certain isotopes.  As an example from NMR, certain analytical features may indicate that carbon 1 of alpha-D-glucopyranose is 13C labeled without knowing the isotopic status of the other carbon atoms.
+- **Isotopologue** - representing molecules of the same chemical entity and same isotopic composition. Related isotopologues represent the same chemical entity but differ in the isotopic composition.  A single isotopologue represents a set of mass-equivalent isotopomers. 
+- **Isotopologue Fragment** - a refined set of isotopomers where the ambiguity of isotope location is limited to a subset of the atoms. This is a subset of the mass-equivalent isotopomers representing the full isotopologue. Tandem mass spectrometry may provide spectral features that indicate where (possibly mixed) isotopes are localized within a chemical structure.  
+
+
