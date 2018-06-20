@@ -1,5 +1,7 @@
 # inchi-isotopologue-extension
 specification extension to InChi to better support isotopologue reporting
+<<<<<<< HEAD
+=======
 
 # Purpose:
 Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific isotopologues, isotopomers, partial isotopomers, and isotopologue fragments can be represented by a single InChI string and used to identify isotope-informative analytical features.
@@ -28,3 +30,5 @@ The isotopic layer is highlighted in red. However, there is no way to create a s
 - Develop InChI isotopic layer specification and examples for non-isotopically-resolved isotopologues detected by less resolved/accurate mass analytical instrumentation.
 - Review and refine developed specifications.
 - Present proposed specifications to the IUPAC InChI subcommittee and the InChI Trust.
+
+>>>>>>> 490a1a7... Update README.md
