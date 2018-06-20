@@ -24,7 +24,7 @@ While the InChI standard has an isotopic layer for representing exact isotopomer
 
 <p align="center"> [12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O</p>
 
-The isotopic layer is highlighted in red. However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one 13C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
+However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one 13C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
 
 # Proposed Isotopologue Extension for InChI
 The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing).
