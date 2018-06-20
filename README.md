@@ -20,11 +20,23 @@ While the InChI standard has an isotopic layer for representing exact isotopomer
 <p align="center"> C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O</p>
 
 - The following InChI string represents the explicit 13C isotopomer with the 4th carbon labeled:
-<p align="center"> InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1/i1+0,2+0,3+0,4+1,5+0,6+0</p>
+<p align="center"> InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1<span style="color:red">/i1+0,2+0,3+0,4+1,5+0,6+0</span></p>
 
 <p align="center"> [12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O</p>
 
 The isotopic layer is highlighted in red. However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one 13C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
+
+# Proposed Isotopologue Extension for InChI
+The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing).
+
+# Community Feedback
+We are actively seeking feedback on this proposal from the broader scientific community.
+
+There are three ways to provide this feedback.
+
+1. Post an issue on this repository.
+2. Submit a comment via [this Google Form](https://goo.gl/forms/8lwvLJDae75bKobk2).
+3. Create a PDF from the [full proposal](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing) and sending an email to: hunter.moseley@gmail.com
 
 # Tasks:
 - Develop a more complete InChI isotopic layer specification and examples for isotopologues, isotopomers, partial isotopomers, and isotopologue fragments for naming isotopically-resolved molecular features detectable by analytical instrumentation.
