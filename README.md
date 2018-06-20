@@ -5,11 +5,12 @@ specification extension to InChi to better support isotopologue reporting
 Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific isotopologues, isotopomers, partial isotopomers, and isotopologue fragments can be represented by a single InChI string and used to identify isotope-informative analytical features.
 
 # Current Team Members:
-* [Hunter Moseley](@hunter-moseley) 
-* [Philippe Rocca-Serra](@proccaserra) 
-* [Reza Salek](@r7salek)
-* [Masanori Arita](@m-arita) 
-* [Emma Schymanski](@schymane)
+* [Hunter Moseley](http://www.github.com/hunter-moseley) 
+* [Philippe Rocca-Serra](http://www.github.com/proccaserra) 
+* [Reza Salek](http://www.github.com/rsalek)
+* [Masanori Arita](http://www.github.com/m-arita) 
+* [Emma Schymanski](http://www.github.com/schymane)
+
 
 # Problems Being Solved:
 While the InChI standard has an isotopic layer for representing exact isotopomers, there is not a specification for representing a range (set) of isotopomers. The fundamental issue is that an ambiguous location of specific isotopes of certain atoms cannot be represented in the current standard.  This is needed to represent a set of isotopomers that correspond to a specific isotopologue.  Currently, an InChI string can represent a specific isotopomer, but not a set of mass-equivalent isotopomers.
@@ -28,3 +29,11 @@ The isotopic layer is highlighted in red. However, there is no way to create a s
 - Develop InChI isotopic layer specification and examples for non-isotopically-resolved isotopologues detected by less resolved/accurate mass analytical instrumentation.
 - Review and refine developed specifications.
 - Present proposed specifications to the IUPAC InChI subcommittee and the InChI Trust.
+
+# Definitions:
+- **Isotopomer** - also known as isotopic isomers, these are isomers with the same number of each isotope of each element but differing in their positions within the chemical structure. Isotopomers can also be specific to stereochemistry, where they are known as isotopic stereoisomers.  By definition, isotopomers have the same mass, since they have the same isotopic composition.  However, the set of all isotopomers which span all possible isotopic compositions are often collectively referred to as isotopomers.  
+- **Partial Isotopomer** - part of an isotopomer where the isotopic content of specific atoms is known.  In nuclear magnetic resonance spectroscopy (NMR) and in rare circumstances in tandem mass spectrometry, individual spectral features may directly indicate that certain atoms of a particular molecule have certain isotopes.  As an example from NMR, certain analytical features may indicate that carbon 1 of alpha-D-glucopyranose is 13C labeled without knowing the isotopic status of the other carbon atoms.
+- **Isotopologue** - representing molecules of the same chemical entity and same isotopic composition. Related isotopologues represent the same chemical entity but differ in the isotopic composition.  A single isotopologue represents a set of mass-equivalent isotopomers. 
+- **Isotopologue Fragment** - a refined set of isotopomers where the ambiguity of isotope location is limited to a subset of the atoms. This is a subset of the mass-equivalent isotopomers representing the full isotopologue. Tandem mass spectrometry may provide spectral features that indicate where (possibly mixed) isotopes are localized within a chemical structure.  
+
+
