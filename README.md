@@ -5,11 +5,11 @@ specification extension to InChi to better support isotopologue reporting
 Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific isotopologues, isotopomers, partial isotopomers, and isotopologue fragments can be represented by a single InChI string and used to identify isotope-informative analytical features.
 
 # Current Team Members:
-* [Hunter Moseley](hunter.moseley@gmail.com) 
-* [Philippe Rocca-Serra](proccaserra@gmail.com) 
-* [Reza Salek](r7salek@gmail.com)
-* [Masanori Arita](masanori.arita@gmail.com) 
-* [Emma Schymanski](schymane@gmail.com)
+* [Hunter Moseley](@hunter-moseley) 
+* [Philippe Rocca-Serra](@proccaserra) 
+* [Reza Salek](@r7salek)
+* [Masanori Arita](@masanori-arita) 
+* [Emma Schymanski](@schymane)
 
 # Problems Being Solved:
 While the InChI standard has an isotopic layer for representing exact isotopomers, there is not a specification for representing a range (set) of isotopomers. The fundamental issue is that an ambiguous location of specific isotopes of certain atoms cannot be represented in the current standard.  This is needed to represent a set of isotopomers that correspond to a specific isotopologue.  Currently, an InChI string can represent a specific isotopomer, but not a set of mass-equivalent isotopomers.
