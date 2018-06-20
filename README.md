@@ -37,7 +37,7 @@ There are three ways to provide this feedback.
 1. Post an issue on this repository.
 2. Submit a comment via [this Google Form](https://goo.gl/forms/8lwvLJDae75bKobk2).
 3. Create a PDF from the [full proposal](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing), mark it up, and email it to: hunter.moseley@gmail.com
---* Please use the following subject line: "InChI Isotopologue Proposal Feedback".
+   * Please use the following subject line: "InChI Isotopologue Proposal Feedback".
 
 # Tasks:
 - Develop a more complete InChI isotopic layer specification and examples for isotopologues, isotopomers, partial isotopomers, and isotopologue fragments for naming isotopically-resolved molecular features detectable by analytical instrumentation.
