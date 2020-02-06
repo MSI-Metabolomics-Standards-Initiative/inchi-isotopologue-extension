@@ -80,5 +80,4 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 |Ala-3_2|InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1|InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/i1H3,2H/f/h4H|[1H7,1H8,1H9:C1]HResonance + [1H7,1H8,1H9:1H10]J3HH|doublets|3|InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/f/h4H|2|
 
 
-
 2. Experiments submitted to the European repository, [EMBL-EBI Metabolights]https://www.ebi.ac.uk/metabolights/)
