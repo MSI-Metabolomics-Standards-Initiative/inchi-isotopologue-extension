@@ -33,7 +33,7 @@ The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTW
 
 # Community Feedback:
 
-~~ We are actively seeking feedback on this proposal from the broader scientific community. ~~
+~~	We are actively seeking feedback on this proposal from the broader scientific community.~~
 
 The community consultation about the proposed specifications is **now closed** and the proposal has been submitted to the IUPAC in , which has since accepted the specifications, allowing initial implementation efforts.
 
@@ -43,11 +43,11 @@ There are three ways to provide this feedback.
 
 1. Post an issue on this repository.
 
-~~ 2. Submit a comment via [this Google Form](https://goo.gl/forms/8lwvLJDae75bKobk2). ~~
+~~2. Submit a comment via [this Google Form](https://goo.gl/forms/8lwvLJDae75bKobk2).~~
 
-~~ 3. Create a PDF from the [full proposal](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing), mark it up, and email it to: hunter.moseley@gmail.com ~~
+~~3. Create a PDF from the [full proposal](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing), mark it up, and email it to: hunter.moseley@gmail.com~~
 
-~~ Please use the following subject line: "InChI Isotopologue Proposal Feedback". ~~
+~~Please use the following subject line: "InChI Isotopologue Proposal Feedback".~~
 
 # Tasks:
 
@@ -91,6 +91,8 @@ exemplar tabular representation:
 |Ala-3_2|InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1|InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/i1H3,2H/f/h4H|[1H7,1H8,1H9:C1]HResonance + [1H7,1H8,1H9:1H10]J3HH|doublets|3|InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/f/h4H|2|
 
 
-2. Experiments submitted to the European repository, [EMBL-EBI Metabolights]https://www.ebi.ac.uk/metabolights/)
+2. Experiments submitted to the European repository, [EMBL-EBI Metabolights](https://www.ebi.ac.uk/metabolights/)
 
 [MS based study MTBLS412](https://www.ebi.ac.uk/metabolights/MTBLS412)
+
+
