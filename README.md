@@ -44,23 +44,32 @@ There are three ways to provide this feedback.
 1. Post an issue on this repository.
 
 ~~ 2. Submit a comment via [this Google Form](https://goo.gl/forms/8lwvLJDae75bKobk2). ~~
+
 ~~ 3. Create a PDF from the [full proposal](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing), mark it up, and email it to: hunter.moseley@gmail.com ~~
-~~ * Please use the following subject line: "InChI Isotopologue Proposal Feedback". ~~
+
+~~ Please use the following subject line: "InChI Isotopologue Proposal Feedback". ~~
 
 # Tasks:
+
 - Develop a more complete InChI isotopic layer specification and examples for isotopologues, isotopomers, partial isotopomers, and isotopologue fragments for naming isotopically-resolved molecular features detectable by analytical instrumentation. COMPLETED (TODO: add date: YYYY.MM.DD)
+
 - Develop InChI isotopic layer specification and examples for non-isotopically-resolved isotopologues detected by less resolved/accurate mass analytical instrumentation. COMPLETED (TODO: add date: YYYY.MM.DD)
+
 - Review and refine developed specifications. COMPLETED (TODO: add date: YYYY.MM.DD)
+
 - Present proposed specifications to the IUPAC InChI subcommittee and the InChI Trust. COMPLETED (TODO: add date: YYYY.MM.DD)
 
 # Implementation:
 
 1. Implementation of the isotopomer portion of the specification
 
-The isoenum and isoenum-webgui python packages are the only currently available implementation of the isotopomer portion of the specification. These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment) 
+The isoenum and isoenum-webgui python packages are the only currently available implementation of the isotopomer portion of the specification. 
 
-https://github.com/MoseleyBioinformaticsLab/isoenum
-https://github.com/MoseleyBioinformaticsLab/isoenum-webgui
+These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment) 
+
+[isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
+
+[isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
 
 2. Implementation of the isotopologue portion of the specification
 
@@ -71,8 +80,10 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 
 1. Experiments submitted to the US repository, [Metabolomics Workbench](https://www.metabolomicsworkbench.org)
 
-[ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
+[NMR based study ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
 
+
+exemplar tabular representation:
 
 |metabolite_name|base_inchi|isotopic_inchi|peak_description|peak_pattern|proton_count|representative_inchi|transient_peak|
 |---------------|----------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------|----------------------------------|---|-----------------------------------------------|---|
@@ -81,3 +92,5 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 
 
 2. Experiments submitted to the European repository, [EMBL-EBI Metabolights]https://www.ebi.ac.uk/metabolights/)
+
+[MS based study MTBLS412](https://www.ebi.ac.uk/metabolights/MTBLS412)
