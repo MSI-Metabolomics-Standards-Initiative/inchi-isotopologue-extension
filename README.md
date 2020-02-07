@@ -18,22 +18,28 @@ While the InChI standard has an isotopic layer for representing exact isotopomer
 
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`
 
-[C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O\)O1\)O\)O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=none)
+`SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O`
+
+[view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=C\(\[C@@H\]1\[C@H\]\(\[C@@H\]\(\[C@H\]\(\[C@@H\]\(O\)O1\)O\)O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=none)
 
 - The following InChI string represents the explicit 13C isotopomer with the 4th carbon labeled:
 
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i1+0,2+0,3+0,4+1,5+0,6+0`{: style="color: red; opacity: 0.80;" }
 
-[[12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=\[12CH2\]\[12C@@H]1[12C@H]\([13C@@H]\([12C@H]\(\[12C@@H\]\(O\)O1\)O\)\O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.55&annotate=none)
+`SMILES=[12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O`
+[view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=\[12CH2\]\[12C@@H]1[12C@H]\([13C@@H]\([12C@H]\(\[12C@@H\]\(O\)O1\)O\)\O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.55&annotate=none)
 
 However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one 13C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
 
 # Proposed Isotopologue Extension for InChI
+
 The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing).
+
+or from the following [pages](./specifications/definitions.md)
 
 # Community Feedback:
 
-~~	We are actively seeking feedback on this proposal from the broader scientific community.~~
+~~We are actively seeking feedback on this proposal from the broader scientific community.~~
 
 The community consultation about the proposed specifications is **now closed** and the proposal has been submitted to the IUPAC in , which has since accepted the specifications, allowing initial implementation efforts.
 
@@ -59,19 +65,16 @@ There are three ways to provide this feedback.
 
 - Present proposed specifications to the IUPAC InChI subcommittee and the InChI Trust. COMPLETED (TODO: add date: YYYY.MM.DD)
 
-# Implementation:
+# Softwares implementing the specification:
 
-1. Implementation of the isotopomer portion of the specification
+ 1. Implementation of the isotopomer portion of the specification:
 
-The isoenum and isoenum-webgui python packages are the only currently available implementation of the isotopomer portion of the specification. 
+    The isoenum and isoenum-webgui python packages are the only currently available implementation of the isotopomer portion of the specification. 
+    These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment) 
+    [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
+    [isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
 
-These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment) 
-
-[isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
-
-[isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
-
-2. Implementation of the isotopologue portion of the specification
+ 2. Implementation of the isotopologue portion of the specification
 
 The next part is to develop software that uses the isotopologue portion of the specification. However, this requires an SDFile representation of isotopologues.
 A draft SDFile representation for isotopologues that utilizes masking MOL file entries is currently under review by the InChI software implementers.
@@ -83,7 +86,7 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 [NMR based study ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
 
 
-exemplar tabular representation:
+exemplar tabular representation in the MWTab format, ` Metabolites` section:
 
 |metabolite_name|base_inchi|isotopic_inchi|peak_description|peak_pattern|proton_count|representative_inchi|transient_peak|
 |---------------|----------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------|----------------------------------|---|-----------------------------------------------|---|
