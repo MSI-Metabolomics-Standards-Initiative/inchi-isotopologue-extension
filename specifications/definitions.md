@@ -43,7 +43,7 @@ composition (number of isotopic substitutions - see
 isotope compositions of hydrogen and oxygen as as follows:
 
 <sup>1</sup>H<sub>2</sub><sup>16</sup>O,
-<sup>1</sup>H<sub>2</sup>H<sup>16</sup>O,
+<sup>1</sup>H<sub>2</sub>H<sup>16</sup>O,
 <sup>2</sup>H<sub>2</sub><sup>16</sup>O
 
 <sup>1</sup>H<sub>2</sub><sup>17</sup>O,
@@ -51,12 +51,12 @@ isotope compositions of hydrogen and oxygen as as follows:
 <sup>2</sup>H<sub>2</sub><sup>17</sup>O
 
 <sup>1</sup>H<sub>2</sub><sup>18</sup>O,
-<sup>1</sup>H<sub>2</sup>H<sup>18</sup>O,
+<sup>1</sup>H<sub>2</sub>H<sup>18</sup>O,
 <sup>2</sup>H<sub>2</sub><sup>18</sup>O
 
 ** A single isotopologue represents a set of mass-equivalent isotopomers ** 
 (e.g. <sup>12</sup>C<sub>2</sub>
-<sup>1</sup>sup>H<sub>6</sub> has one isotopomer: <sup>12</sup>C<sub>2</sub><sup>1</sup>H<sub>5</sub><sup>2</sup>H has two isotopomers).
+<sup>1</sup>H<sub>6</sub> has one isotopomer: <sup>12</sup>C<sub>2</sub><sup>1</sup>H<sub>5</sub><sup>2</sup>H has two isotopomers).
 
 ## Nominal-Mass Isotopologue:
 Nominal-Mass Isotopologue - a set of isotopologues with the same elemental and nucleon
