@@ -35,7 +35,14 @@ However, there is no way to create a single valid InChI string that represents t
 
 The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing).
 
-or from the following [pages](./specifications/definitions.md)
+Look the following [definitions](./specifications/definitions.md)
+
+* [older iupac specifications](./specifications/isotopic_iupac_specs.md)
+
+* [proposed iupac specifications extension](./specifications/proposed-extension-isotopic-iupac-specs.md)
+
+* [iupac feedback - Questions and Answers ](./specifications/questions-answers-iupac.md)
+
 
 # Community Feedback:
 

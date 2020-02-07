@@ -73,8 +73,17 @@ example, <sup>13</sup>C<sub>1</sub> may be limited to the glycerol part of a gly
 chains.
 
 
-**Disclosure:**
+**:octocat: Disclosure:**
 
 - The IUPAC Gold Book was a major source for crafting these definitions
 [https://goldbook.iupac.org](https://goldbook.iupac.org).
 - Wikipedia was another significant source for crafting some of these definitions, especially for structural isomer , stereoisomer , isotopomer and isotopologue.
+
+
+
+1. [Prior to proposal IUPAC Specifications](./specifications/current_specs.md)
+
+2. [Prior to proposal IUPAC Specifications](./specifications/current_specs.md)
+
+3. [Prior to proposal IUPAC Specifications](./specifications/current_specs.md)
+
