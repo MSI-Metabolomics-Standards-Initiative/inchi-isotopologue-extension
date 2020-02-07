@@ -1,11 +1,12 @@
 ## Questions and Issues Posed by the IUPAC InChI Subcommittee
 
 # Question 1:
- How will be stereochemistry covered, if it changes with hopping the isotopes (e.g. 2 x 13C in inositol). In regards to stereochemistry, non-standard InChi can distinguish between ‘undefined’ and ‘unknown’, will the isotopic enhancement cover similar cases?
+ How will be stereochemistry covered, if it changes with hopping the isotopes (e.g. 2 x 13C in inositol). 
+ In regards to stereochemistry, non-standard InChi can distinguish between ‘undefined’ and ‘unknown’, will the isotopic enhancement cover similar cases?
 
 
 # *Answer*:
-The answer is ‘undefined’ for stereochemistry created by the presence of isotope.  Since the isotopologue represents a set of isotopomers, each isotopomer may have a specific stereochemistry based on specific isotope location.  It is not that they are necessarily ‘unknown’, but the set can create a situation where there is not a single completely designated stereochemistry.  For the stereochemistry not specified by isotope, this would naturally be included with the isotopologue designation, as illustrated in the following examples:
+The answer is **‘undefined** for stereochemistry created by the presence of isotope.  Since the isotopologue represents a set of isotopomers, each isotopomer may have a specific stereochemistry based on specific isotope location.  It is not that they are necessarily ‘unknown’, but the set can create a situation where there is not a single completely designated stereochemistry.  For the stereochemistry not specified by isotope, this would naturally be included with the isotopologue designation, as illustrated in the following examples:
 
 [https://comptox.epa.gov/dashboard/dsstoxdb/results?search=inositol](https://comptox.epa.gov/dashboard/dsstoxdb/results?search=inositol)
 
@@ -15,9 +16,10 @@ The answer is ‘undefined’ for stereochemistry created by the presence of iso
 
 `InChI=1S/C6H12O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-12H/t1-,2-,3-,4+,5-,6-`
 
-The InChI strings for 13C2 isotopologues of inositol and myo-inositol would be:
+The InChI strings for <sup>13</sup>C<sub>2</sub> isotopologues of inositol and myo-inositol would be:
 
 `InChI=1/C6H12O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-12H`{: style="color: black; opacity: 0.80;" }`/a(C2+1)`{: style="color: red; opacity: 0.80;" }
+
 `InChI=1/C6H12O6/c7-1-2(8)4(10)6(12)5(11)3(1)9/h1-12H/t1-,2-,3-,4+,5-,6-`{: style="color: black; opacity: 0.80;" }`/a(C2+1)`{: style="color: red; opacity: 0.80;" }
 
 # Question 2:
@@ -28,9 +30,9 @@ The InChI strings for 13C2 isotopologues of inositol and myo-inositol would be:
 For the most part, the current InChI canonicalization algorithm creates a unique numbering that is isotope agnostic. However, problems arise when dealing with stereospecific isotopomers involving hydrogen. The canonicalization algorithm will generate the same atom numbering for two different stereospecific hydrogen isotopomers.
 The following is an example:
 
-`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i1D/t1-,2-,3-,4+,5-,6+`{: style="color: red; opacity: 0.80;" }
+`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;"}`/i1D/t1-,2-,3-,4+,5-,6+`{: style="color: red; opacity: 0.80;" }
 
-`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i1D/t1-,2+,3+,4-,5+,6-/m0`{: style="color: red; opacity: 0.80;" }
+`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;"}`/i1D/t1-,2+,3+,4-,5+,6-/m0`{: style="color: red; opacity: 0.80;" }
 
 The canonicalization algorithm in the InChI Trust software will generate identical MOL/SDF files with the deuteration indicated on atom number 13. Open Babel’s “--gen3D” option has a segmentation fault, so the unique stereochemistry cannot be retrieved via that software. The Biological Magnetic Resonance Bank has been working on an approach called ALATIS to generate unique hydrogen atom numbering, but their solution is not practical for everyday use of InChI. It would be best that the canonicalization algorithm in the InChI Trust software at least generated unique atom numbering for stereospecific hydrogen isotopomers. An issue (#1794) has been posted on the Open Babel GitHub repository, so maybe a stereospecific MOL/SDF file could be generated from their software if they fix their bug.  
 
@@ -48,7 +50,7 @@ There is a potential overlap with variable structure proposal; the isotopologue 
 We suspect that “dividing and conquering” (treating both cases in the separate sub-groups then ensuring compatibility of the developed approaches) may be a better strategy, since we have specifications to handle nominal mass and across (all) constitutional isomers. The nominal mass situation will likely be hard to handle in the variable structure proposal. The cross-constitutional isomer situation is probably handling a much wider range of variable structures than what the variable structure proposal is focused on handling. It would be good for some of our team to directly interact with the team developing the variable structure proposal to discuss this.
 
 # Question 5:
-What input format was suggested to feed InChI with an isotoplogue, which has uncertain positions of isotopic atoms?
+What input format was suggested to feed InChI with an isotopologue, which has uncertain positions of isotopic atoms?
 For instance, consider two Deuterium atoms located in any two out of 5 hydroxyl groups in a molecule. Of course, the  examples may be much more complicated.
 As far as I know, molfile formats, which are currently used to feed InChI with chemical structures, cannot express such an isotopologue (I think that query formats should not be used)
 IMHO, no software development is possible without a suitable well-defined input format,  a representative test set of isotopologues expressed in the suggested format,  and their suggested InChI.
@@ -78,12 +80,12 @@ InChI typically tries to employ somewhat different general design, which has som
 Namely, it first includes some layer capturing an unprecise information, then optionally includes its extension/analog, which accounts for more precise info. 
 This layered approach allows one to represent molecular information with a different degree of percisiness.
 
-The example is tautomeric data [e.g., [https://www.inchi-trust.org/technical-faq/#6.1](https://www.inchi-trust.org/technical-faq/#6.1)
+The example is tautomeric data [e.g., [https://www.inchi-trust.org/technical-faq/#6.1](https://www.inchi-trust.org/technical-faq/#6.1)]
 
 InChI string contains /h sub-layer in main layer, which lists all possible locations of mobile H's -- but not the precise locations themselves. However, the exact locations may be further specified by /h sub-layer in FixedH layer, following /f.
 Most notably, you may cut longer ("precise" mobile H) InChI at /f and retain only the beginning: this would be valid ("unprecise" mobile H) parent of all possible longer strings representing tautomers.
 
-Ideally, it would be most convenient to have such a layout at least partially preserved for the hierarchy comprising isotopologues, mass-equivalent isotopomers, nominal-mass isotopoologues, and isotope-position-distinct isotopomers, etc. Current design in the proposal does not reflect such "parent"/"child", or "generic"/"specific" relations, at least represented in easily deducible manner.
+Ideally, it would be most convenient to have such a layout at least partially preserved for the hierarchy comprising isotopologues, mass-equivalent isotopomers, nominal-mass isotopoologues, and isotope-position-distinct isotopomers, etc. Current design in the proposal does not reflect such "parent/child", or "generic/specific" relations, at least represented in easily deducible manner.
 
 I am not sure if it is really/easily achievable, but I would strongly suggest that the authors consider a possibility of introducing the layered hierarchical isotopologue/isomer layout, at least partially.
 
@@ -114,8 +116,9 @@ It may seems convenient for specific purpose of the moment, but preserving some 
 
 
 # *Answer*:
-We understand the need for adhering to design principles; however the current design principles were primarily based on designation of characteristics to specific atoms.  By extending the InChI to cover ambiguous designation, the design principles may need to be revisited to achieve a balance between the original concept and a compact, understandable representation.  The specification of the element prevents the need for specifying a collection of atoms.  For instance, we currently propose to represent two 13C located somewhere across all carbon atoms as:
-     `InChI=1/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/a(C2+1)`
+We understand the need for adhering to design principles; however the current design principles were primarily based on designation of characteristics to specific atoms.  By extending the InChI to cover ambiguous designation, the design principles may need to be revisited to achieve a balance between the original concept and a compact, understandable representation.  The specification of the element prevents the need for specifying a collection of atoms.  For instance, we currently propose to represent two <sup>13</sup>C located somewhere across all carbon atoms as:
+
+`InChI=1/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/a(C2+1)`
 
 Here are some alternatives specifications that are not as concise nor as easy to interpret:
 
@@ -143,15 +146,18 @@ Here is an example of 3 neutrons spread across the non-hydrogen atoms:
 
 But cross-constitutional isomer isotopologues cannot be represented unless we assume some ordering of atoms like the typical C/ascending atomic number/H ordering seen generated by the InChI Foundation software:
 
-      `InChI=1/C6H12O6`{: style="color: black; opacity: 0.80;" }`/a(2+1,1,2,3,4,5,6)`{: style="color: red; opacity: 0.80;" }
-      `InChI=1/C6H12O6`{: style="color: black; opacity: 0.80;" }`/a(2+1,1-6)`{: style="color: red; opacity: 0.80;" }
+`InChI=1/C6H12O6`{: style="color: black; opacity: 0.80;" }`/a(2+1,1,2,3,4,5,6)`{: style="color: red; opacity: 0.80;" }
+
+`InChI=1/C6H12O6`{: style="color: black; opacity: 0.80;" }`/a(2+1,1-6)`{: style="color: red; opacity: 0.80;" }
 
 
 # Question 10:
 Minor issues.
 (a)
-"The following InChI string represents the explicit 13 C isotopomer with the 4th carbon labeled:
-`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1 /i1+0,2+0,3+0,4+1,5+0,6+0"`
+
+The following InChI string represents the explicit 13 C isotopomer with the 4th carbon labeled:
+
+`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1 /i1+0,2+0,3+0,4+1,5+0,6+0`
 
 Actually, this represents the explicit 13 C isotopomer with the 4th carbon labeled and the explicit 12C "labeling" for all the other carbons.
 Construct "+0" always means that that the atom is of a specific isotope whose mass number is the same as the rounded average atomic mass.
@@ -168,12 +174,19 @@ Text "Current InChI Isotopomer Specification ... <hydrogen_isotope_count> - numb
 Consequently, all the example InChI strings containing "...D1" or so should be corrected.
 
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1/i1D1`
+
 should be
+
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1/i1D`
 
+and
+
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1/i7D1,8D1,9D1,10D1,11D1`
+
 should be
+
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1/i7D,8D,9D,10D,11D`
+
 etc.
 
 # *Answer*:

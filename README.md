@@ -37,7 +37,7 @@ The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTW
 
 Look the following [definitions](./specifications/definitions.md)
 
-* [older iupac specifications](./specifications/isotopic_iupac_specs.md)
+* [older iupac specifications](./specifications/isotopic-iupac-specs.md)
 
 * [proposed iupac specifications extension](./specifications/proposed-extension-isotopic-iupac-specs.md)
 
