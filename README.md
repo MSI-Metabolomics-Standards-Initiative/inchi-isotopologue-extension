@@ -2,7 +2,7 @@
 specification extension to InChi to better support isotopologue reporting
 
 # Purpose:
-Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific isotopologues, isotopomers, partial isotopomers, and isotopologue fragments can be represented by a single InChI string and used to identify isotope-informative analytical features.
+Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific `isotopologues`, `isotopomers`, `partial isotopomers`, and `isotopologue fragments` can be represented by `a single InChI string` and used **to identify isotope-informative analytical features**.
 
 # Current Team Members:
 * [Hunter Moseley](https://github.com/hunter-moseley) 
@@ -18,30 +18,27 @@ While the InChI standard has an isotopic layer for representing exact isotopomer
 
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`
 
-`SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O`
-
-[view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=C\(\[C@@H\]1\[C@H\]\(\[C@@H\]\(\[C@H\]\(\[C@@H\]\(O\)O1\)O\)O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=none)
+`SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O` [view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=C\(\[C@@H\]1\[C@H\]\(\[C@@H\]\(\[C@H\]\(\[C@@H\]\(O\)O1\)O\)O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.6&annotate=none)
 
 - The following InChI string represents the explicit 13C isotopomer with the 4th carbon labeled:
 
 `InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i1+0,2+0,3+0,4+1,5+0,6+0`{: style="color: red; opacity: 0.80;" }
 
-`SMILES=[12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O`
-[view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=\[12CH2\]\[12C@@H]1[12C@H]\([13C@@H]\([12C@H]\(\[12C@@H\]\(O\)O1\)O\)\O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.55&annotate=none)
+`SMILES=[12CH2]([12C@@H]1[12C@H]([13C@@H]([12C@H]([12C@@H](O)O1)O)O)O)O` [view](http://www.simolecule.com/cdkdepict/depict/bow/svg?smi=\[12CH2\]\[12C@@H\]1\[12C@H\]\(\[13C@@H\]\(\[12C@H\]\(\[12C@@H\]\(O\)O1\)O\)\O\)O\)O&abbr=off&hdisp=bridgehead&showtitle=false&zoom=1.55&annotate=none)
 
-However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one 13C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
+However, there is no way to create a single valid InChI string that represents the isotopologue of alpha-D-glucopyranose containing one <sup>13</sup>C atom at an undefined atomic location, which is the signal that would be observed in mass spectrometry experiments.  The use of multiple InChI strings to represent this is impractical for many isotopologues.
 
 # Proposed Isotopologue Extension for InChI
 
 The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTWmwmuP0GF2Far6BREd-8g8Lh2FuSofE0d5tEXU/edit?usp=sharing).
 
-Look the following [definitions](./specifications/definitions.md)
+* [definitions](./specifications/definitions.md)
 
-* [older iupac specifications](./specifications/isotopic-iupac-specs.md)
+* [existing iupac specifications (2018, prior to proposal)](./specifications/isotopic-iupac-specs.md)
 
 * [proposed iupac specifications extension](./specifications/proposed-extension-isotopic-iupac-specs.md)
 
-* [iupac feedback - Questions and Answers ](./specifications/questions-answers-iupac.md)
+* [iupac feedback - Questions and Answers ](./specifications/questions-ans****wers-iupac.md)
 
 
 # Community Feedback:
