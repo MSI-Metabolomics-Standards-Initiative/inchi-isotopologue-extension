@@ -10,7 +10,7 @@ A stereoisomer is one of a set of isomeric molecules that have the same molecula
 sequence of bonded atoms (constitution), but differ in the configuration of their atoms in
 three-dimensional space (see [https://goldbook.iupac.org/html/S/S05984.html](https://goldbook.iupac.org/html/S/S05984.html) ).
 
-## (Extended) Isotopomer 
+## (Extended) Isotopomer:
 (Extended) Isotopomer - also known as isotopic isomers, these are isomers
 [https://goldbook.iupac.org/html/I/I03289.html](https://goldbook.iupac.org/html/I/I03289.html) with the same number of each isotope of each
 element but differing in their positions within the chemical structure. For example, CH<sub>3</sub>CHDCH<sub>3</sub>
@@ -23,8 +23,9 @@ spanning all isotopic compositions for a given chemical entity. Therefore, we wi
 isotopomer as any isotope-position-distinct isomer of a given chemical entity. The term
 “mass-equivalent isotopomer” will be used to refer to the technical definition of isotopomer.
 
-## Mass-equivalent Isotopomer - see above;
-we will use this term to refer to the technical definition of an isotopomer, as one in a collection of isomers with the same number of each isotope of
+## Mass-equivalent Isotopomer:
+(also see above;)
+We will use this term to refer to the technical definition of an isotopomer, as one in a collection of isomers with the same number of each isotope of
 each element but differing in their positions within the chemical structure.
 
 ## Partial Isotopomer - part of an isotopomer where the isotopic content of specific atoms is known.
@@ -42,18 +43,20 @@ composition (number of isotopic substitutions - see
 isotope compositions of hydrogen and oxygen as as follows:
 
 <sup>1</sup>H<sub>2</sub><sup>16</sup>O,
-<sup>1</sup>H<sub><sup>2</sup>H<sup>16</sup>O,
-<sup>2</sup>H<sub>2</sub><sup>16</sup>O,
+<sup>1</sup>H<sub>2</sup>H<sup>16</sup>O,
+<sup>2</sup>H<sub>2</sub><sup>16</sup>O
+
 <sup>1</sup>H<sub>2</sub><sup>17</sup>O,
-<sup>1</sup>H<sub><sup>2</sup>H<sup>17</sup>O,
-<sup>2</sup>H<sub>2</sub><sup>17</sup>O,
+<sup>1</sup>H<sub>2</sup>H<sup>17</sup>O,
+<sup>2</sup>H<sub>2</sub><sup>17</sup>O
+
 <sup>1</sup>H<sub>2</sub><sup>18</sup>O,
-<sup>1</sup>H<sub><sup>2</sup>H<sup>18</sup>O,
-<sup>2</sup>H<sub>2</sub><sup>18</sup>O,
+<sup>1</sup>H<sub>2</sup>H<sup>18</sup>O,
+<sup>2</sup>H<sub>2</sub><sup>18</sup>O
 
 ** A single isotopologue represents a set of mass-equivalent isotopomers ** 
-(e.g. <sup>12</sup>C<sub>2</sub>sub>
-<sup>1</sup>sup>H<sub>6</sub> has one isotopomer; <sup>12</sup>sup>C<sub>2</sub><sup>1</sup>H<sub>5</sub><sup>2</sup>H has two isotopomers).
+(e.g. <sup>12</sup>C<sub>2</sub>
+<sup>1</sup>sup>H<sub>6</sub> has one isotopomer: <sup>12</sup>C<sub>2</sub><sup>1</sup>H<sub>5</sub><sup>2</sup>H has two isotopomers).
 
 ## Nominal-Mass Isotopologue:
 Nominal-Mass Isotopologue - a set of isotopologues with the same elemental and nucleon
@@ -70,7 +73,7 @@ example, <sup>13</sup>C<sub>1</sub> may be limited to the glycerol part of a gly
 chains.
 
 
-** Disclosure:**
+**Disclosure:**
 
 - The IUPAC Gold Book was a major source for crafting these definitions
 [https://goldbook.iupac.org](https://goldbook.iupac.org).
