@@ -5,7 +5,7 @@ The current InChI specification contains an isotopic layer that can specify exac
 InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1/i1+1D2,2+0
 SMILES=[13CH]([12C](=O)[O-])([2H])[2H]
 
-![.](/assets/acetate.png)
+![.](./assets/acetate.png)
 
 Here are example molecules we will use for demonstration in the following sections: 
 
@@ -18,7 +18,7 @@ SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)N)O)O)OP(=O)(O)O
 InChI=1S/C6H14NO8P/c7-3-5(9)4(8)2(15-6(3)10)1-14-16(11,12)13/h2-6,8-10H,1,7H2,(H2,11,12,13)/t2-,3-,4-,5-,6+/m1/s1
 
 
-![.](/assets/chem-examples.png)
+![.](./assets/chem-examples.png)
 
 
 ## Current InChI Isotopomer Specification: 

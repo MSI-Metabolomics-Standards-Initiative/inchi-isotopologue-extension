@@ -38,7 +38,7 @@ The full proposal can be found [here](https://docs.google.com/document/d/1xh7lTW
 
 * [proposed iupac specifications extension](./specifications/proposed-extension-isotopic-iupac-specs.md)
 
-* [iupac feedback - Questions and Answers ](./specifications/questions-ans****wers-iupac.md)
+* [iupac feedback - Questions and Answers ](./specifications/questions-answers-iupac.md)
 
 
 # Community Feedback:
