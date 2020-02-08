@@ -76,9 +76,12 @@ There are three ways to provide this feedback.
     The isoenum and isoenum-webgui python packages are the only currently available implementation of the isotopomer portion of the specification. 
     These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment):
 
+   	
    	* [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
 
+
    	* [isoenumwebgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
+
 
 
  2. Implementation of the isotopologue portion of the specification
