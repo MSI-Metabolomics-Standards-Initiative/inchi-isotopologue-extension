@@ -5,7 +5,7 @@ A structural isomer or constitutional isomerism - is one of a set of isomeric mo
 same molecular formula but with different bonding patterns and atomic organization (i.e. line
 formulae - see [https://goldbook.iupac.org/html/C/C01285.html](https://goldbook.iupac.org/html/C/C01285.html) ).
 
-##Stereoisomer:
+## Stereoisomer:
 A stereoisomer is one of a set of isomeric molecules that have the same molecular formula and
 sequence of bonded atoms (constitution), but differ in the configuration of their atoms in
 three-dimensional space (see [https://goldbook.iupac.org/html/S/S05984.html](https://goldbook.iupac.org/html/S/S05984.html) ).
@@ -24,8 +24,8 @@ isotopomer as any isotope-position-distinct isomer of a given chemical entity. T
 “mass-equivalent isotopomer” will be used to refer to the technical definition of isotopomer.
 
 ## Mass-equivalent Isotopomer:
-(also see above;)
-We will use this term to refer to the technical definition of an isotopomer, as one in a collection of isomers with the same number of each isotope of
+
+We will use this term to refer to the technical definition of an isotopomer (also see above), as one in a collection of isomers with the same number of each isotope of
 each element but differing in their positions within the chemical structure.
 
 ## Partial Isotopomer - part of an isotopomer where the isotopic content of specific atoms is known.
@@ -47,7 +47,7 @@ isotope compositions of hydrogen and oxygen as as follows:
 <sup>2</sup>H<sub>2</sub><sup>16</sup>O
 
 <sup>1</sup>H<sub>2</sub><sup>17</sup>O,
-<sup>1</sup>H<sub>2</sup>H<sup>17</sup>O,
+<sup>1</sup>H<sub>2</sub>H<sup>17</sup>O,
 <sup>2</sup>H<sub>2</sub><sup>17</sup>O
 
 <sup>1</sup>H<sub>2</sub><sup>18</sup>O,
