@@ -6,11 +6,11 @@ The lack of parentheses for isotopomers ensures backwards compatibility with pre
 
 ## Isotopically-Resolved Isotopologue Specification: 
 
-* Rationale: to enable the use of InChI to specify an isotopologue or isotopologue fragment.
+* **Rationale**: to enable the use of InChI to specify an isotopologue or isotopologue fragment.
 
-* Simple Definition:  `/a(Ee#<+|->#[,#]...)`
+* **Simple Definition**:  `/a(Ee#<+|->#[,#]...)`
 
-* Complete Definition:  `/a(<element><isotope_count><isotope_designation>[,<atom_number>])`
+* **Complete Definition**:  `/a(<element><isotope_count><isotope_designation>[,<atom_number>])`
 
 	* <element> one or two letter Element code (Ee).
 	* <isotope_count> number of atoms with the designated isotope (#).
@@ -21,9 +21,9 @@ The lack of parentheses for isotopomers ensures backwards compatibility with pre
 
 If multiple atoms need to be specified, these are comma separated. 
 
-* Regular Expression Definition: `[/]a[(][A-Z][a-z]?\d+[+-]\d+([,]\d+)*[)]`
+* **Regular Expression Definition**: `[/]a[(][A-Z][a-z]?\d+[+-]\d+([,]\d+)*[)]`
 
-* Examples:
+* **Examples**:
 
 	1. <sup>13</sup>C<sub>2</sub> isotopologue of alpha-D-glucopyranose:
 
@@ -56,17 +56,17 @@ Therefore when ambiguity of isotope location is present, it is clearly indicated
 
 ## Augmented Range Specification: 
 
-* Simple Isotopologue Definition: `/a(Ee#<+|->#[,#-#|,#]...)`
+* **Simple Isotopologue Definition**: `/a(Ee#<+|->#[,#-#|,#]...)`
 
-* Complete Isotopologue Definition: `/a(<element><isotope_count><isotope_designation>[,<start_atom_number>-<end_atom_number>])`
+* **Complete Isotopologue Definition**: `/a(<element><isotope_count><isotope_designation>[,<start_atom_number>-<end_atom_number>])`
 
-* Simple Isotopomer Definition: `/i#-#<+|->#`
+* **Simple Isotopomer Definition**: `/i#-#<+|->#`
 
 The augmented isotopomer range specification is limited to a single `atom_range` and `isotope_designation`, due to parsing ambiguities that would arise if mixed `atom_range` and single atom designations were allowed.
 
-* Complete Isotopomer Definition: `/i<start_atom_number>-<end_atom_number><isotope_designation>`
+* **Complete Isotopomer Definition**: `/i<start_atom_number>-<end_atom_number><isotope_designation>`
 
-* Examples:
+* **Examples**:
 
 	1. <sup>13</sup>C<sub>2</sub> limited to atoms 4,5,6 isotopologue fragment of alpha-D-glucopyranose:
 
@@ -79,17 +79,17 @@ The augmented isotopomer range specification is limited to a single `atom_range`
 
 ## Nominal-Mass Isotopologue Specification: 
 
-* Rationale: to enable an InChI representation for mass spectral features that are not isotope-resolved.
+* **Rationale**: to enable an InChI representation for mass spectral features that are not isotope-resolved.
 
-* Simple Nominal-Mass Isotopologue Definition: `/a(#n[,#]...)`
+* **Simple Nominal-Mass Isotopologue Definition**: `/a(#n[,#]...)`
 
-* Complete Nominal-Mass Isotopologue Definition: `/a(<neutron_count>n[,<atom_number>])`
+* **Complete Nominal-Mass Isotopologue Definition**: `/a(<neutron_count>n[,<atom_number>])`
 	
 	<neutron_count> - number of neutrons of extra mass.
 
 Notice the reversal of `neutron_count` relative to the `n` representing neutron.  This is done so that no ambiguity will exist with the isotopically-resolved isotopologue specification, where the element is indicated first and the `isotope_count` second. 
 
-* Examples:
+* **Examples**:
 
 	1. M+3 isotopologue of alpha-D-glucopyranose:
 
@@ -134,13 +134,13 @@ Notice the reversal of `neutron_count` relative to the `n` representing neutron.
 
 ## Cross-Constitutional Isomer Isotopologue Specification: 
 
-* Rationale: to enable a non-standard InChI representation of isotopologues that span multiple constitutional isomers, i.e. either a fully or partially isotopically-resolved molecular formula. 
+* **Rationale**: to enable a non-standard InChI representation of isotopologues that span multiple constitutional isomers, i.e. either a fully or partially isotopically-resolved molecular formula. 
 
 **This specification is directly useful for describing individual features in mass spectrometry when the specific constitutional isomer is unknown.**
 
-* Simple Definition: `1/Ee#[Ee#].../a(Ee#<+|->#) OR 1/Ee#[Ee#].../a(#n)`
+* **Simple Definition**: `1/Ee#[Ee#].../a(Ee#<+|->#) OR 1/Ee#[Ee#].../a(#n)`
 
-* Examples:
+* **Examples**:
 	1. <sup>13</sup>C<sub>2</sub> isotopologue of molecules with molecular formula C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>:
 
 		`InChI=1/C6H12O6/`{: style="color: black; opacity: 0.80;" }`/a(C2+1)`{: style="color: red; opacity: 0.80;" }
