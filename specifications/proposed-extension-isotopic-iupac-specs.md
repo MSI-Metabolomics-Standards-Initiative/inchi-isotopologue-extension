@@ -105,7 +105,7 @@ Notice the reversal of `neutron_count` relative to the `n` representing neutron.
 
 		`InChI=1/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i(4n,1-6)`{: style="color: red; opacity: 0.80;" }
 		
-		** This situation could arise from use of tandem mass spectrometry features that localize the extra mass to certain elements. ** 
+		**This situation could arise from use of tandem mass spectrometry features that localize the extra mass to certain elements.** 
 
 
 ## Partial Isotopomer Specification: 
@@ -135,7 +135,8 @@ Notice the reversal of `neutron_count` relative to the `n` representing neutron.
 ## Cross-Constitutional Isomer Isotopologue Specification: 
 
 * Rationale: to enable a non-standard InChI representation of isotopologues that span multiple constitutional isomers, i.e. either a fully or partially isotopically-resolved molecular formula. 
-** This specification is directly useful for describing individual features in mass spectrometry when the specific constitutional isomer is unknown. **
+
+		**This specification is directly useful for describing individual features in mass spectrometry when the specific constitutional isomer is unknown.**
 
 * Simple Definition: `1/Ee#[Ee#].../a(Ee#<+|->#) OR 1/Ee#[Ee#].../a(#n)`
 

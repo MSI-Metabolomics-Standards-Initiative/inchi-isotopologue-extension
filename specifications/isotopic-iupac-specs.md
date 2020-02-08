@@ -1,12 +1,12 @@
 ## Background Information:
 
-The current InChI specification contains an isotopic layer that can specify exact isotopomers.  There is also some ability to specify limited atomic location ambiguity for hydrogen isotopes. For example, acetate containing one 13C and two 2H isotopes in the methyl group has the following InChI string:
+The current InChI specification contains an isotopic layer that can specify exact isotopomers. There is also some ability to specify limited atomic location ambiguity for hydrogen isotopes. For example, acetate containing one <sup>13</sup>C and two <sup>2</sup>H isotopes in the methyl group has the following InChI string:
 
 `InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1/i1+1D2,2+0`
 
 `SMILES=[13CH]([12C](=O)[O-])([2H])[2H]`
 
-![.](./assets/acetate.png){:height="200px" }
+![.](./assets/acetate.png){:height="180px" }
 
 Here are example molecules we will use for demonstration in the following sections: 
 
@@ -38,6 +38,7 @@ Here are example molecules we will use for demonstration in the following sectio
 where:
 
 * `<atom_number>` specific atom that has the specified isotope.
+
 * `<isotope_designation>` isotope designation indicated by a sign (+ or -) and number indicating the unit mass difference from the rounded average atomic mass of the element.
 
 	For example, the average atomic mass of Sn (118.710) is rounded to 119 and the most abundant isotope <sup>120</sup>Sn is specified by “+1”.
