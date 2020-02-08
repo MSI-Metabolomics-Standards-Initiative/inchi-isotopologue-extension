@@ -7,7 +7,7 @@ Develop enhanced specifications within the regular InChI standard for representi
 # Current Team Members:
 * [Hunter Moseley](https://github.com/hunter-moseley) - University of Kentucky, Lexington, KY, USA.
 * [Philippe Rocca-Serra](https://github.com/proccaserra) - University of Oxford e-Research Centre, Department of Engineering Science, Oxford, UK.
-* [Reza Salek](https://github.com/r7salek) - International Agency for Research on Cancer, World Health Organization, 150 cours Albert Thomas 69372 Lyon CEDEX 08, France.
+* [Reza Salek](https://github.com/r7salek) - International Agency for Research on Cancer, WHO, 150 cours Albert Thomas 69372 Lyon CEDEX 08, France.
 * [Masanori Arita](https://github.com/m-arita) - National Institute of Genetics, Yata 1111, Mishima, 411-8540 Shizuoka, Japan.
 * [Emma Schymanski](https://github.com/schymane) - Luxembourg Centre for Systems Biomedicine, University of Luxembourg, Luxembourg.
 
@@ -77,7 +77,7 @@ There are three ways to provide this feedback.
     These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment):
 
    	* [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
-   	
+
    	* [isoenumwebgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
 
 
