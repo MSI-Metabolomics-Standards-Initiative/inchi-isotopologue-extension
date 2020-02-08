@@ -110,13 +110,13 @@ Notice the reversal of `neutron_count` relative to the `n` representing neutron.
 
 ## Partial Isotopomer Specification: 
 
-* Rationale: to enable an InChI representation of a partial isotopomer, which is directly useful for describing most individual nuclear magnetic resonance spectroscopy spectral features.
+* **Rationale**: to enable an InChI representation of a partial isotopomer, which is directly useful for describing most individual nuclear magnetic resonance spectroscopy spectral features.
 
-* Simple Definition: same as the full isotopomer specification but with the unknown isotope specifications removed (Example 2). 
+* **Simple Definition**: same as the full isotopomer specification but with the unknown isotope specifications removed (Example 2). 
 	
 	The designation of the isotope for all atoms of a given element will represent a full isotopomer (Example 1). 
 
-* Examples:
+* **Examples**:
 	1. <sup>13</sup>C at 4th carbon for full isotopomer (with respect to carbon) of alpha-D-glucopyranose:
 
 		`InChI=1/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`{: style="color: black; opacity: 0.80;" }`/i1+0,2+0,3+0,4+1,5+0,6+0`{: style="color: red; opacity: 0.80;" }
@@ -136,7 +136,7 @@ Notice the reversal of `neutron_count` relative to the `n` representing neutron.
 
 * Rationale: to enable a non-standard InChI representation of isotopologues that span multiple constitutional isomers, i.e. either a fully or partially isotopically-resolved molecular formula. 
 
-		**This specification is directly useful for describing individual features in mass spectrometry when the specific constitutional isomer is unknown.**
+**This specification is directly useful for describing individual features in mass spectrometry when the specific constitutional isomer is unknown.**
 
 * Simple Definition: `1/Ee#[Ee#].../a(Ee#<+|->#) OR 1/Ee#[Ee#].../a(#n)`
 
