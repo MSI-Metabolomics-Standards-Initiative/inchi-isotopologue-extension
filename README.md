@@ -77,12 +77,10 @@ There are three ways to provide this feedback.
     These tools are developed in the [Moseley Lab](http://bioinformatics.cesb.uky.edu/Main/SoftwareDevelopment):
 
    	
-
-   	* [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
-
+* [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
 
 
-   	* [isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
+* [isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
 
 
 
@@ -93,7 +91,7 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 
 # Use cases:  reporting of stable isotope resolved metabolomics experiments
 
- 1. Experiments submitted to the US repository, [Metabolomics Workbench](https://www.metabolomicsworkbench.org)
+ 1. Experiments submitted to the US repository, [Metabolomics Workbench](https://www.metabolomicsworkbench.org).
 
 [NMR based study ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
 
@@ -106,7 +104,7 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 |`Ala-3_2`|`InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1`|`InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/i1H3,2H/f/h4H`|`[1H7,1H8,1H9:C1]HResonance + [1H7,1H8,1H9:1H10]J3HH`|`doublets`|`3`|`InChI=1/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1/f/h4H`|`2`|
 
 
- 2. Experiments submitted to the European repository, [EMBL-EBI Metabolights](https://www.ebi.ac.uk/metabolights/)
+ 2. Experiments submitted to the European repository, [EMBL-EBI Metabolights](https://www.ebi.ac.uk/metabolights/).
 
 [MS based study MTBLS412](https://www.ebi.ac.uk/metabolights/MTBLS412)
 
