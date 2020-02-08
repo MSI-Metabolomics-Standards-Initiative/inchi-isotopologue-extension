@@ -5,11 +5,11 @@ specification extension to InChi to better support isotopologue reporting
 Develop enhanced specifications within the regular InChI standard for representing isotopologues and isotopomers. More specifically, augment the isotopic layer specifications of the regular InChI standard so that specific `isotopologues`, `isotopomers`, `partial isotopomers`, and `isotopologue fragments` can be represented by `a single InChI string` and used **to identify isotope-informative analytical features**.
 
 # Current Team Members:
-* [Hunter Moseley](https://github.com/hunter-moseley) 
-* [Philippe Rocca-Serra](https://github.com/proccaserra) 
-* [Reza Salek](https://github.com/r7salek)
-* [Masanori Arita](https://github.com/m-arita) 
-* [Emma Schymanski](https://github.com/schymane)
+* [Hunter Moseley](https://github.com/hunter-moseley) - University of Kentucky, Lexington, KY, USA.
+* [Philippe Rocca-Serra](https://github.com/proccaserra) - University of Oxford e-Research Centre, Department of Engineering Science, Oxford, UK.
+* [Reza Salek](https://github.com/r7salek) - International Agency for Research on Cancer, World Health Organization, 150 cours Albert Thomas 69372 Lyon CEDEX 08, France.
+* [Masanori Arita](https://github.com/m-arita) - National Institute of Genetics, Yata 1111, Mishima, 411-8540 Shizuoka, Japan.
+* [Emma Schymanski](https://github.com/schymane) - Luxembourg Centre for Systems Biomedicine, University of Luxembourg, Luxembourg.
 
 # Problems Being Solved:
 While the InChI standard has an isotopic layer for representing exact isotopomers, there is not a specification for representing a range (set) of isotopomers. The fundamental issue is that an ambiguous location of specific isotopes of certain atoms cannot be represented in the current standard.  This is needed to represent a set of isotopomers that correspond to a specific isotopologue.  Currently, an InChI string can represent a specific isotopomer, *but not a set of mass-equivalent isotopomers*.
@@ -78,7 +78,8 @@ There are three ways to provide this feedback.
 
    	* [isoenum](https://github.com/MoseleyBioinformaticsLab/isoenum)
 
-    * [isoenum-webgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
+    * [isoenumwebgui](https://github.com/MoseleyBioinformaticsLab/isoenum-webgui)
+
 
  2. Implementation of the isotopologue portion of the specification
 
