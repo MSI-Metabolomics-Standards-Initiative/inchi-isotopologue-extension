@@ -2,23 +2,23 @@
 
 The current InChI specification contains an isotopic layer that can specify exact isotopomers.  There is also some ability to specify limited atomic location ambiguity for hydrogen isotopes. For example, acetate containing one 13C and two 2H isotopes in the methyl group has the following InChI string:
 
-InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1/i1+1D2,2+0
-SMILES=[13CH]([12C](=O)[O-])([2H])[2H]
+`InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)/p-1/i1+1D2,2+0`
+`SMILES=[13CH]([12C](=O)[O-])([2H])[2H]`
 
-![.](./assets/acetate.png)
+![.](./assets/acetate.png){:height="36px" width="36px"}
 
 Here are example molecules we will use for demonstration in the following sections: 
 
 * alpha-D-glucopyranose (left)
-InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1
-SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O
+`InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1`
+`SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)O)O)O)O`
 
 * 2-Amino-2-deoxy-6-O-phosphono-alpha-D-glucopyranose (right)
-SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)N)O)O)OP(=O)(O)O
-InChI=1S/C6H14NO8P/c7-3-5(9)4(8)2(15-6(3)10)1-14-16(11,12)13/h2-6,8-10H,1,7H2,(H2,11,12,13)/t2-,3-,4-,5-,6+/m1/s1
+`SMILES=C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O)O1)N)O)O)OP(=O)(O)O`
+`InChI=1S/C6H14NO8P/c7-3-5(9)4(8)2(15-6(3)10)1-14-16(11,12)13/h2-6,8-10H,1,7H2,(H2,11,12,13)/t2-,3-,4-,5-,6+/m1/s1`
 
 
-![.](./assets/chem-examples.png)
+![.](./assets/chem-examples.png){:height="36px" width="36px"}
 
 
 ## Current InChI Isotopomer Specification: 
