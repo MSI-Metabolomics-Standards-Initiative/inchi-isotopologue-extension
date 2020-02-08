@@ -93,7 +93,7 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 
 	1. Experiments submitted to the US repository, [Metabolomics Workbench](https://www.metabolomicsworkbench.org)
 
-	[NMR based study ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
+[NMR based study ST001139](https://www.metabolomicsworkbench.org/data/study_textformat_view.php?STUDY_ID=ST001139&ANALYSIS_ID=AN001869)
 
 
 	Exemplar tabular representation in the MWTab format, `Metabolites` section:
@@ -106,6 +106,6 @@ A draft SDFile representation for isotopologues that utilizes masking MOL file e
 
 	2. Experiments submitted to the European repository, [EMBL-EBI Metabolights](https://www.ebi.ac.uk/metabolights/)
 
-	[MS based study MTBLS412](https://www.ebi.ac.uk/metabolights/MTBLS412)
+[MS based study MTBLS412](https://www.ebi.ac.uk/metabolights/MTBLS412)
 
 
