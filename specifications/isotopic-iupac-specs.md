@@ -6,7 +6,7 @@ The current InChI specification contains an isotopic layer that can specify exac
 
 `SMILES=[13CH]([12C](=O)[O-])([2H])[2H]`
 
-![.](./assets/acetate.png){:height="150px" }
+![.](./assets/acetate.png){:height="110px" }
 
 Here are example molecules we will use for demonstration in the following sections: 
 
@@ -23,7 +23,7 @@ Here are example molecules we will use for demonstration in the following sectio
 `InChI=1S/C6H14NO8P/c7-3-5(9)4(8)2(15-6(3)10)1-14-16(11,12)13/h2-6,8-10H,1,7H2,(H2,11,12,13)/t2-,3-,4-,5-,6+/m1/s1`
 
 
-![.](./assets/chem-examples.png){:height="200px"}
+![.](./assets/chem-examples.png){:height="150px"}
 
 
 ## Current InChI Isotopomer Specification: 
@@ -35,16 +35,16 @@ Here are example molecules we will use for demonstration in the following sectio
 `/i<atom_number><isotope_designation>[<hydrogen_isotope><hydrogen_isotope_count>]`
 `/i<atom_number>[<hydrogen_isotope><hydrogen_isotope_count>]`
 
-where:
+	where:
 
-* `<atom_number>` specific atom that has the specified isotope.
+		* `<atom_number>` specific atom that has the specified isotope.
 
-* `<isotope_designation>` isotope designation indicated by a sign (+ or -) and number indicating the unit mass difference from the rounded average atomic mass of the element.
+		* `<isotope_designation>` isotope designation indicated by a sign (+ or -) and number indicating the unit mass difference from the rounded average atomic mass of the element.
 
-	For example, the average atomic mass of Sn (118.710) is rounded to 119 and the most abundant isotope <sup>120</sup>Sn is specified by “+1”.
+			For example, the average atomic mass of Sn (118.710) is rounded to 119 and the most abundant isotope <sup>120</sup>Sn is specified by “+1”.
 
-* `<hydrogen_isotope>` D for deuterium. etc.
-* `<hydrogen_isotope_count>` number of the specified hydrogen isotope bonded to the designated atom (`<atom_number>`); 1 if omitted.  
+		* `<hydrogen_isotope>` D for deuterium. etc.
+		* `<hydrogen_isotope_count>` number of the specified hydrogen isotope bonded to the designated atom (`<atom_number>`); 1 if omitted.  
 
 * Examples:
 
