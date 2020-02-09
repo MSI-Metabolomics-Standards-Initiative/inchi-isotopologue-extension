@@ -35,14 +35,10 @@ Here are example molecules we will use for demonstration in the following sectio
 `/i<atom_number><isotope_designation>[<hydrogen_isotope><hydrogen_isotope_count>]`
 `/i<atom_number>[<hydrogen_isotope><hydrogen_isotope_count>]`
 
-	where:
-
+where:
 		* `<atom_number>` specific atom that has the specified isotope.
-
 		* `<isotope_designation>` isotope designation indicated by a sign (+ or -) and number indicating the unit mass difference from the rounded average atomic mass of the element.
-
 			For example, the average atomic mass of Sn (118.710) is rounded to 119 and the most abundant isotope <sup>120</sup>Sn is specified by “+1”.
-
 		* `<hydrogen_isotope>` D for deuterium. etc.
 		* `<hydrogen_isotope_count>` number of the specified hydrogen isotope bonded to the designated atom (`<atom_number>`); 1 if omitted.  
 
